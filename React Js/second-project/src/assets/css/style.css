@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.home{
+    width: 100%;
+    padding: 40px 100px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.home h1{
+    padding-bottom: 15px;
+}
+.home p{
+    line-height: 28px;
+    font-size: 18px;
+}
+.header{
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.buttons{
+    text-align: center;
+    padding: 50px;
+}
+.buttons button{
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.show_hide{
+    text-align: center;
+    padding: 50px;
+}
+.show_hide input{
+    margin-right: 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.show_hide button{
+    background-color: black;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}

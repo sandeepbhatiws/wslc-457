@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.row{
+    width: 1200px;
+    padding: 50px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.column{
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+}

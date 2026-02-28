@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>DOM</title>
+</head>
+<body>
+    
+    <div class="outer_images">
+        <div class="image" onmouseover="changeImageOver('images/deal3.png', 'images/deal4.png')" onmouseout="changeImageOut('images/deal4.png', 'images/deal3.png')">
+            <img src="images/deal3.png" alt="" id="image1">
+        </div>
+        <div class="image" onmouseenter="changeImage()" onmouseleave="changeImage()">
+            <img src="images/deal4.png" alt="" id="image2">
+        </div>
+    </div>
+
+
+    <script src="js/custom.js"></script>
+
+</body>
+</html>

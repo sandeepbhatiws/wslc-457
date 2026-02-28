@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        const userInfo = {
+            email : 'sandeep@gmail.com',
+            name : 'Sandeep bhati',
+            mobile_number : 1234567890
+        }
+
+        // console.log(userInfo['email']);
+
+
+        const allInfo = [
+            {
+                email : 'sandeep@gmail.com',
+                name : 'Sandeep bhati',
+                mobile_number : 1234567890
+            },
+            {
+                name : 'Ravi',
+                email : 'ravi@gmail.com',
+                mobile_number : 1234567890
+            }
+        ];
+
+
+        allInfo.forEach((v, i) => {
+            console.log(v['name']);
+            console.log(allInfo[i]['name'])
+        });
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+
+.row{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    border: 0px solid dimgray;
+    box-sizing: border-box;
+}
+.row input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.output{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid dimgray;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.row button{
+    background-color: black;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 20px;
+}

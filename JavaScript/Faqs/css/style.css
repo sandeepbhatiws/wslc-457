@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.freqently_questions{
+    width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: auto;
+}
+.frequently_heading{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.question_answer{
+    border: 1px solid dimgray;
+    margin-bottom: 15px;
+}
+.question{
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.answer{
+    padding: 15px;
+}
+.icon{
+    font-size: 24px;
+}
+
+.d-none{
+    display: none;
+}

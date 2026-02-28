@@ -1,0 +1,36 @@
+.image1{
+	width: 1200px;
+	height: 600px;
+	margin-bottom: 100px;
+	border: 1px solid red;
+	background-image: url('../images/1.jpg');
+	/*background-position: top right;*/
+	background-size: contain;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+.image2{
+	width: 1000px;
+	height: 600px;
+	margin-bottom: 100px;
+	border: 1px solid red;
+	background-image: url('../images/3.jpg');
+	background-repeat: repeat;
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-position: bottom left;
+	background-position: top center;
+	background-position: center;
+	background-size: cover;
+	/*background-size: contain;*/
+}
+
+.image3{
+	width: 1000px;
+	height: 600px;
+	margin-top: 100px;
+	border: 1px solid red;
+	background: black url('../images/3.jpg') no-repeat;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Temperature Converter</title>
+    </head>
+    <body>
+        
+
+        <script>
+            var number = Number(prompt('Enter the value'));
+            // console.log(typeof number);
+            // number = number.trim();
+
+            var from = prompt('Enter the from (Celsius (C), Fahrenheit (F), Kelvin (K))');
+            from = from.toUpperCase();
+            from = from.trim();
+
+            var to = prompt('Enter the to (Celsius (C), Fahrenheit (F), Kelvin (K))');
+            to = to.toUpperCase();
+            to = to.trim();
+
+            if(from == 'C' && to == 'F'){
+                var formala = (number * 9/5) + 32;
+                document.write('<h1>'+ formala +'</h1>');
+            } else if(from == 'C' && to == 'K'){
+                var formala = number +  273.15;
+                document.write('<h1>'+ formala +'</h1>');
+            } else {
+                document.write('<h1>Invalid Value.</h1>');
+            }
+        </script>
+    </body>
+</html>

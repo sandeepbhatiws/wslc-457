@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.freqently_questions{
+    width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: auto;
+}
+.frequently_heading{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.question_answer{
+    border: 1px solid dimgray;
+    margin-bottom: 15px;
+}
+.question{
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.answer{
+    padding: 15px;
+}
+.icon{
+    font-size: 24px;
+}
+
+.d-none{
+    display: none;
+}
+
+
+.outer_courses{
+    max-width: 1200px;
+    margin: auto;
+}
+.course_heading{
+    text-align: center;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.course_heading h1{
+    padding-bottom: 15px;
+}
+.course_heading p{
+    line-height: 28px;
+}
+
+.inner_courses{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+.courses{
+    box-shadow: 0px 0px 2px 1px dimgray;
+    border-radius: 15px;
+    padding: 15px;
+    flex-basis: 23%;
+    margin: 1%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.courses p{
+    padding-top: 15px;
+    line-height: 26px;
+}

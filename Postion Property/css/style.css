@@ -1,0 +1,177 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+
+.call_us{
+	background: blue;
+	color: white;
+	width: 100px;
+	padding: 15px;
+	box-sizing: border-box;
+	text-align: center;
+	border-radius: 15px;
+	font-weight: bold;
+	font-size: 18px;
+	position: fixed;
+/*	top: 100px;*/
+	/*right: 50px;
+	bottom: 50px;*/
+
+	right: 50px;
+	bottom: 50px;
+}
+.box{
+	width: 1000px;
+	height: 1200px;
+	border: 5px solid red;
+}
+.header{
+	width: 100%;
+	height: 100px;
+	border-bottom: 2px solid black;
+	background-color: white;
+	position: sticky;
+	top: 0px;
+}
+
+.row{
+	width: 1200px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.column{
+	width: 31%;
+/*	height: 100px;*/
+	margin: 1%;
+	border: 1px solid grey;
+	border-radius: 25px;
+	overflow: hidden;
+	position: relative;
+}
+
+.column img{
+	width: 100%;
+	height: 100%;
+}
+.image{
+	width: 100%;
+	height: 100%;
+}
+.content{
+	padding: 15px;
+	box-sizing: border-box;
+	text-align: center;
+	position: absolute;
+	bottom: -300px;
+	left: 0px;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	width: 100%;
+	height: 100%;
+/*	display: none;*/
+	
+/*	opacity: 0;*/
+	transition: 1s;
+}
+.content p{
+	margin-top: 10px;
+	line-height: 26px;
+}
+.column:hover .content{
+/*	display: block;*/
+
+/*	opacity: 1;*/
+
+	bottom: 0px;
+}
+
+.outer_header{
+	width: 100%;
+	box-shadow: 0px 1px 2px 0px gray;
+}
+.main_header{
+	width: 1200px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 50px;
+	position: relative;
+}
+.outer_menu>ul{
+	display: flex;
+	list-style: none;
+	gap: 50px;
+}
+.outer_menu>ul>li{
+	padding: 50px 0px;
+}
+
+.submenu{
+	list-style: none;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	border: 1px solid black;
+	z-index: 9;
+	background: white;
+	width: 600px;
+	opacity: 0;
+	visibility: hidden;
+	transition: 1s;
+}
+.submenu li{
+	padding: 10px;
+}
+.outer_menu>ul>li:hover .submenu{
+	opacity: 1;
+	visibility: visible;
+}
+
+/*@keyframes colorChange {
+	from {
+		background-color: red;
+		color: white;
+	}
+	to {
+		background-color: blue;
+		color: white;
+	}
+}*/
+
+
+@keyframes colorChange {
+	0% {
+		background-color: white;
+		transform: scale(1);
+	}
+	50%{
+		background-color: red;
+		color: white;
+		transform: scale(1.2);
+	}
+	100%{
+		background-color: white;
+		transform: scale(1);
+	}
+}
+
+
+.call{
+	background-color: white;
+	border: 1px solid black;
+/*	transform: scale(2);*/
+	padding: 10px 15px;
+	border-radius: 15px;
+	font-weight: bold;
+	font-size: 18px;
+	animation: colorChange;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}

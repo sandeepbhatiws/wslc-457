@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.outer_date{
+    max-width: 1000px;
+    margin: auto;
+    padding: 100px;
+}
+
+.current_date{
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.outer_time{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.hours{
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}

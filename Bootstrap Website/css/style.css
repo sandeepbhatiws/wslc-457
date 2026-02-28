@@ -1,0 +1,34 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+body{
+	font-family: "Alatsi", sans-serif;
+}
+
+.outer_header{
+	background: #E21D24;
+}
+.logo{
+	width: 280px;
+}
+.header_right{
+	font-size: 18px;
+}
+.header_right img{
+	width: 30px;
+}
+.outer_header .active{
+	color: white !important;
+}
+.nav-item:hover .nav-link{
+	color: white !important;
+}
+.services img{
+	width: 100px;
+	margin: auto;
+}

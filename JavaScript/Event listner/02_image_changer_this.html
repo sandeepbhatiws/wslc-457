@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Image Changer </title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        main {
+            width: 800px;
+            height: auto;
+            padding: 10px;
+            border: 0.1px solid red;
+            margin: 50px auto;
+        }
+        #frame {
+            width: 100%;
+            height: 300px;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        .boxes {
+            width: 100%;
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .box {
+            width: 20%;
+            height: 200px;
+            border: 0.1px solid red;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="frame">
+            <img src="images/7.jpg" alt="" id="image_output">
+        </div>
+        <div class="boxes">
+            <div class="box"> <img id="image" class="image1" src="images/1.jpg" alt=""> </div>
+            <div class="box"> <img id="image" class="image2" src="images/2.jpg" alt=""> </div>
+            <div class="box"> <img id="image" src="images/3.jpg" alt=""></div>
+            <div class="box"> <img id="image" src="images/4.jpg" alt=""> </div>
+        </div>
+    </main>
+</body>
+<script>
+    // var output = document.querySelector('.boxes').childNodes;
+    var output = document.querySelector('.boxes').children;
+    console.log(output);
+
+
+    var allImages = document.querySelectorAll('#image');
+
+    allImages.forEach( (value, index) => {
+        value.addEventListener('click', (event) => {
+            console.log(event.target);
+            document.getElementById('image_output').src = event.target.src;
+        })
+    })
+
+    
+
+
+    // document.getElementById('image1').addEventListener('click',(event) => {
+    //     console.log(event.target.src);
+    // })
+
+    // document.getElementById('image2').addEventListener('click',(event) => {
+    //     console.log(event.target.src);
+    // })
+
+
+
+    // var images = document.getElementsByTagName('img');
+    // var frame = document.getElementById('image_output');
+
+    // function change_image(img) {
+    //     console.log(img.src);
+    //     frame.src = img.src;
+    // };
+</script>
+</html>

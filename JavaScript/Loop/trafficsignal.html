@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Traffic Signal</title>
+    </head>
+    <body>
+        
+
+        <script>
+            var name = prompt('Enter the value (green, yellow, red)');
+            name = name.toLowerCase();
+            name = name.trim();
+
+            if(name == 'yellow'){
+                document.write('<h1>Yellow Signal.</h1>');
+            } else if(name == 'green'){
+                document.write('<h1>Green Signal.</h1>');
+            } else if(name == 'red'){
+                document.write('<h1>Red Signal.</h1>');
+            } else {
+                document.write('<h1>Invalid Value.</h1>');
+            }
+        </script>
+    </body>
+</html>

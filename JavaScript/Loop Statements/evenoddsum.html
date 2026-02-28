@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        var number  = prompt('Enter the number');
+        var evenSum = 0;
+        var oddSum  = 0;
+
+
+        for(var i = 1; i <= number; i++){
+            if(i % 2 == 0){
+                
+                evenSum = evenSum + i;
+            } else {
+                console.log(i);
+                oddSum += i;   // oddSum = oddSum +i;
+            }
+        }
+
+
+        document.write('Even Number Sum = '+evenSum+'<br>');
+        document.write('Odd Number Sum = '+oddSum+'<br>');
+
+    </script>
+</body>
+</html>
